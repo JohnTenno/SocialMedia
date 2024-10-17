@@ -1,9 +1,0 @@
-{
-  "routes": [
-    "/",
-    "/forgot-password",
-    "/login",
-    "/password-change",
-    "/profile"
-  ]
-}
