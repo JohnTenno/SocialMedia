@@ -182,7 +182,7 @@
   --tblr-breakpoint-xs: 0;
   --tblr-breakpoint-sm: 576px;
   --tblr-breakpoint-md: 768px;
-  --tblr-breakpoint-lg: 992px;
+  --tblr-breakpoint-lg: 768px;
   --tblr-breakpoint-xl: 1200px;
   --tblr-breakpoint-xxl: 1400px;
 }
@@ -800,7 +800,7 @@ progress {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
 
   .container-lg,
   .container-md,
@@ -1139,7 +1139,7 @@ progress {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .grid .g-col-lg-1 {
     grid-column: auto/span 1;
   }
@@ -2057,7 +2057,7 @@ progress {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .col-lg {
     flex: 1 0 0%;
   }
@@ -4308,7 +4308,7 @@ fieldset:disabled .btn {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .dropdown-menu-lg-start {
     --bs-position: start;
   }
@@ -5022,7 +5022,7 @@ fieldset:disabled .btn {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .navbar-expand-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -6337,7 +6337,7 @@ fieldset:disabled .btn {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .list-group-horizontal-lg {
     flex-direction: row;
   }
@@ -7385,7 +7385,7 @@ fieldset:disabled .btn {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
 
   .modal-lg,
   .modal-xl {
@@ -8468,7 +8468,7 @@ fieldset:disabled .btn {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .offcanvas-lg {
     --tblr-offcanvas-height: auto;
     --tblr-offcanvas-border-width: 0;
@@ -9490,7 +9490,7 @@ fieldset:disabled .btn {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .sticky-lg-top {
     position: -webkit-sticky;
     position: sticky;
@@ -13524,7 +13524,7 @@ fieldset:disabled .btn {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .float-lg-start {
     float: left !important;
   }
@@ -16704,7 +16704,7 @@ Navbar
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .navbar-expand-lg .navbar-collapse {
     width: auto;
     flex: 1 1 auto;
@@ -17576,7 +17576,7 @@ Navbar vertical
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .navbar-vertical.navbar-expand-lg {
     width: 15rem;
     position: fixed;
@@ -17591,33 +17591,33 @@ Navbar vertical
   }
 }
 
-@media (min-width: 992px) and (prefers-reduced-motion: reduce) {
+@media (min-width: 768px) and (prefers-reduced-motion: reduce) {
   .navbar-vertical.navbar-expand-lg {
     transition: none;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .navbar-vertical.navbar-expand-lg.navbar-right {
     left: auto;
     right: 0;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .navbar-vertical.navbar-expand-lg .navbar-brand {
     padding: 0.75rem 0;
     justify-content: center;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .navbar-vertical.navbar-expand-lg .navbar-collapse {
     align-items: stretch;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .navbar-vertical.navbar-expand-lg .navbar-nav {
     flex-direction: column;
     flex-grow: 1;
@@ -17630,7 +17630,7 @@ Navbar vertical
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .navbar-vertical.navbar-expand-lg>[class^=container] {
     flex-direction: column;
     align-items: stretch;
@@ -17640,7 +17640,7 @@ Navbar vertical
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .navbar-vertical.navbar-expand-lg~.page {
     padding-left: 15rem;
   }
@@ -17651,14 +17651,14 @@ Navbar vertical
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .navbar-vertical.navbar-expand-lg.navbar-right~.page {
     padding-left: 0;
     padding-right: 15rem;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .navbar-vertical.navbar-expand-lg .navbar-collapse {
     flex-direction: column;
   }
@@ -18234,7 +18234,7 @@ Navbar vertical
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .page-cover {
     min-height: 15rem;
   }
@@ -21200,7 +21200,7 @@ a.badge {
   opacity: 0.75;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .carousel-indicators-thumb [data-bs-target] {
     width: 4rem;
   }
@@ -21567,7 +21567,7 @@ a.card-title:hover {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .card-lg>.card-body {
     padding: 4rem;
   }
